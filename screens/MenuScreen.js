@@ -20,6 +20,13 @@ export default function MenuScreen(props){
           <Text style={styles.profileButtonText}>Go to Students Screen</Text>
         </TouchableOpacity>
 
+        <TouchableOpacity
+          style={styles.profileButton}
+          onPress={() => props.navigation.navigate("StudentProfile")}
+        >
+          <Text style={styles.profileButtonText}>Go to Students Profile</Text>
+        </TouchableOpacity>
+
       </View>
     );
 }

@@ -16,7 +16,7 @@ export default function StudentDetails(props) {
 const styles = StyleSheet.create({
     container: {
         width: "90%",
-        flexDirection: "row",
+        flexDirection: "center",
         alignItems: "center",
         marginVertical: 10,
     },
@@ -27,8 +27,7 @@ const styles = StyleSheet.create({
         marginRight: 20,
     },
     name: {
-        fontSize: 18,
-        fontWeight: "bold",
+        fontSize: 18
     },
     description: {
         fontSize: 14,

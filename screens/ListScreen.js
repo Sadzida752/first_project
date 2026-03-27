@@ -1,5 +1,4 @@
 import React from "react";
-import React from "react";
 import { Text, View, StyleSheet, FlatList } from "react-native";
 
 const students = [
@@ -47,3 +46,5 @@ export const ListScreen = () => {
         </View>
     )
 }
+
+export default ListScreen;

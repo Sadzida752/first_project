@@ -4,9 +4,10 @@ import  {createStackNavigator}  from '@react-navigation/stack';
 import ProfileScreen from './screens/ProfileScreen';
 import ButtonScreen from './screens/ButtonScreen';
 import MenuScreen from './screens/MenuScreen';
-import {MainScreen}  from './screens/MainScreen';
+import { MainScreen } from './screens/MainScreen';
 import ListScreen from './screens/ListScreen';
 import StudentsScreen from './screens/StudentsScreen';
+import StudentProfile from './screens/StudentProfile';
 
 const Stack = createStackNavigator();
 
@@ -43,6 +44,11 @@ export default function App() {
           name="StudentsScreen" 
           component={StudentsScreen}
         />
+        <Stack.Screen 
+          name="StudentProfile" 
+          component={StudentProfile}
+        />
+        
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
